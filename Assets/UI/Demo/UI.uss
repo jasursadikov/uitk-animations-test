@@ -1,0 +1,57 @@
+.multistate_element {
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+}
+
+#state1 {
+    background-color: red;
+}
+
+#state2 {
+    background-color: blue;
+}
+
+#state3 {
+    background-color: green;
+}
+
+.multistate_element__state1 > #state1 {
+    opacity: 1;
+}
+
+.multistate_element__state2 > #state2 {
+    opacity: 1;
+}
+
+.multistate_element__state3 > #state3 {
+    opacity: 1;
+}
+
+.multistate_element > * {
+    position: absolute;
+    transition: all;
+    transition-duration: 1000ms;
+    transition-timing-function: ease-in-out;
+    opacity: 0;
+}
+
+.multistate_element > #state1 {
+    opacity: 1;
+}
+
+.multistate_element:hover > #state1 {
+    opacity: 0;
+}
+
+.multistate_element:hover > #state2 {
+    opacity: 1;
+}
+
+.multistate_element:active > #state2 {
+    opacity: 0;
+}
+
+.multistate_element:active > #state3 {
+    opacity: 1;
+}

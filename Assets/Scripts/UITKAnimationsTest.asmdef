@@ -1,0 +1,19 @@
+{
+    "name": "UITK-Test",
+    "rootNamespace": "",
+    "references": [
+        "GUID:0dccb44101a2db44f8d0ca3f137f30c6",
+        "GUID:8db7ae814965dfd499dd0ec9b08f9064",
+        "GUID:8b8c60060cf03964dbd41b7237ae33c9",
+        "GUID:2bafac87e7f4b9b418d9448d219b01ab"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

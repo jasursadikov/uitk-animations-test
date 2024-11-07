@@ -1,0 +1,40 @@
+﻿<unity:UXML xmlns:unity="UnityEngine.UIElements">
+    <unity:VisualElement
+        id="0:0"
+        name="Document"
+        class="unity-base-override unity-viewport"
+        picking-mode="Ignore">
+        <Style
+            src="UI.uss" />
+        <unity:Template
+            src="Components/Prefab.uxml"
+            name="Prefab" />
+        <unity:Template
+            src="Components/Images.uxml"
+            name="Images" />
+        <unity:VisualElement
+            id="0:1"
+            name="Main"
+            class="unity-base-override unity-viewport"
+            picking-mode="Ignore">
+            <unity:VisualElement
+                id="3:3"
+                name="DummyFrame"
+                class="unity-base-override DummyFrame unity-viewport"
+                picking-mode="Ignore">
+                <unity:Instance
+                    template="Prefab"
+                    name="Instance"
+                    class="unity-base-override Instance-one Property1-Variant2" />
+                <unity:Instance
+                    template="Prefab"
+                    name="Instance"
+                    class="unity-base-override Instance-two Property1-Variant1" />
+                <unity:Instance
+                    template="Images"
+                    name="Images"
+                    class="unity-base-override Images-one Property-1-Variant2" />
+            </unity:VisualElement>
+        </unity:VisualElement>
+    </unity:VisualElement>
+</unity:UXML>

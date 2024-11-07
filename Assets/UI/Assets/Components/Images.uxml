@@ -1,0 +1,43 @@
+﻿<unity:UXML xmlns:unity="UnityEngine.UIElements">
+    <Style
+        src="../UI.uss" />
+    <unity:VisualElement
+        id="103:160"
+        name="Images"
+        class="unity-base-override Images-two unity-viewport"
+        picking-mode="Ignore">
+        <unity:VisualElement
+            id="103:138"
+            name="Property 1=Default"
+            class="unity-base-override Property-1-Default unity-viewport"
+            picking-mode="Ignore">
+            <unity:VisualElement
+                id="103:119"
+                name="Tee"
+                class="unity-base-override Tee unity-viewport"
+                picking-mode="Ignore" />
+        </unity:VisualElement>
+        <unity:VisualElement
+            id="103:165"
+            name="Property 1=Variant2"
+            class="unity-base-override Property-1-Variant2 unity-viewport"
+            picking-mode="Ignore">
+            <unity:VisualElement
+                id="103:166"
+                name="DeepRough"
+                class="unity-base-override DeepRough-one unity-viewport"
+                picking-mode="Ignore" />
+        </unity:VisualElement>
+        <unity:VisualElement
+            id="103:186"
+            name="Property 1=Variant3"
+            class="unity-base-override Property-1-Variant3 unity-viewport"
+            picking-mode="Ignore">
+            <unity:VisualElement
+                id="103:206"
+                name="Leaves"
+                class="unity-base-override Leaves unity-viewport"
+                picking-mode="Ignore" />
+        </unity:VisualElement>
+    </unity:VisualElement>
+</unity:UXML>
