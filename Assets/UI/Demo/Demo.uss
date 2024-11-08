@@ -5,6 +5,12 @@
 .item {
     margin: 24px;
     height: 128px;
+    background-color: firebrick;
+    
+    border-width: 2px;
+    border-radius: 4px;
+    border-color: maroon;
+    
     transition-property: all;
     transition-duration: 100ms;
     transition-timing-function: ease-in-bounce;
@@ -18,16 +24,15 @@
 .item:hover {
     scale: 1.1;
     border-radius: 24px;
-    background-color: aqua;
+    border-width: 4px;
+    border-color: lavender;
+    background-color: indianred;
 }
 
-.item:focus{
-    scale: 1.2;
-    background-color: red;
-}
-
-.item:inactive {
-    background-color: darkslategray;
+.item:active {
+    scale: 1;
+    border-color: hotpink;
+    background-color: brown;
 }
 
 .multistate_element {
