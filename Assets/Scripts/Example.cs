@@ -8,6 +8,6 @@ public class Example : MonoBehaviour
     {
         var doc = GetComponent<UIDocument>();
         yield return new WaitForSeconds(1);
-        doc.rootVisualElement.Q("Button").AddToClassList("Blue");
+        doc.rootVisualElement.Q("Button2").AddToClassList("multistate_element__state3");
     }
 }

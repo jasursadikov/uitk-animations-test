@@ -2,18 +2,30 @@
 	width: 100px;
 	height: 100px;
 	background-color: aliceblue;
+	overflow: visible;
 }
-.multistate_element:hover #state1, .multistate_element__state1 > #state1 {
+
+#state1 {
 	background-color: red;
+}
+#state2 {
+	color: white;
+	background-color: blue;
+}
+#state3 {
+	color: white;
+	background-color: green;
+	width: 150px;
+}
+
+.multistate_element:hover #state1, .multistate_element__state1 > #state1 {
 	opacity: 1;
 }
-.multistate_element:active #state2, 
+.multistate_element:active #state2,
 .multistate_element__state2 > #state2 {
-	background-color: blue;
 	opacity: 1;
 }
 .multistate_element__state3 > #state3 {
-	background-color: green;
 	opacity: 1;
 }
 .multistate_element > *, .multistate_element:hover > * {
@@ -22,4 +34,25 @@
 	transition-duration: 1000ms;
 	transition-timing-function: ease-in-out;
 	opacity: 0;
+	top:0;
+	left:0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.expand {
+	position: absolute;
+	transition: all;
+	transition-duration: 1000ms;
+	transition-timing-function: ease-in-out;
+	background-color: aquamarine;
+	width: 100px;
+	height: 100px;
+}
+
+.expand:hover {
+	width: 200px;
+	height: 200px;
+	background-color: #049cdb;
+	border-radius: 30px;
 }
