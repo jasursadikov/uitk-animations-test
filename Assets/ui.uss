@@ -1,0 +1,25 @@
+.multistate_element {
+	width: 100px;
+	height: 100px;
+	background-color: aliceblue;
+}
+.multistate_element:hover #state1, .multistate_element__state1 > #state1 {
+	background-color: red;
+	opacity: 1;
+}
+.multistate_element:active #state2, 
+.multistate_element__state2 > #state2 {
+	background-color: blue;
+	opacity: 1;
+}
+.multistate_element__state3 > #state3 {
+	background-color: green;
+	opacity: 1;
+}
+.multistate_element > *, .multistate_element:hover > * {
+	position: absolute;
+	transition: all;
+	transition-duration: 1000ms;
+	transition-timing-function: ease-in-out;
+	opacity: 0;
+}

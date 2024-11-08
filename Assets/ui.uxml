@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/ui.uss?fileID=7433441132597879392&amp;guid=828fdbc291034d84e9c16aa4c7fcf0c5&amp;type=3#ui" />
+    <ui:VisualElement name="VisualElement" class="multistate_element" style="flex-grow: 1; position: absolute; width: 100px; height: 100px; left: 0;">
+        <ui:VisualElement name="state1" style="flex-grow: 1; position: absolute; left: 0; top: 0; min-width: 100%; max-width: none; min-height: 100%;">
+            <ui:Label tabindex="-1" text="STATE1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label1" />
+        </ui:VisualElement>
+        <ui:VisualElement name="state2" style="flex-grow: 1; left: 0; top: 0; position: absolute; min-width: 100%; min-height: 100%;">
+            <ui:Label tabindex="-1" text="STATE2" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label1" />
+        </ui:VisualElement>
+        <ui:VisualElement name="state3" style="position: absolute; left: 0; min-width: 100%; min-height: 100%;">
+            <ui:Label tabindex="-1" text="STATE3" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label1" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" class="multistate_element" style="left: 100px; top: 100px;">
+        <ui:VisualElement name="state1" style="flex-grow: 1; position: absolute; left: 0; top: 0; min-width: 100%; max-width: none; min-height: 100%;">
+            <ui:Label tabindex="-1" text="STATE1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label1" />
+        </ui:VisualElement>
+        <ui:VisualElement name="state2" style="flex-grow: 1; left: 0; top: 0; position: absolute; min-width: 100%; min-height: 100%;">
+            <ui:Label tabindex="-1" text="STATE2" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label1" />
+        </ui:VisualElement>
+        <ui:VisualElement name="state3" style="position: absolute; left: 0; min-width: 100%; min-height: 100%;">
+            <ui:Label tabindex="-1" text="STATE3" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label1" />
+        </ui:VisualElement>
+    </ui:Button>
+</ui:UXML>
