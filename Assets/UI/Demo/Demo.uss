@@ -1,3 +1,31 @@
+.item {
+    margin: 24px;
+    height: 128px;
+    transition-property: all;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in-bounce;
+}
+
+.item:disabled {
+    border-radius: 16px;
+    background-color: aquamarine;
+}
+
+.item:hover {
+    scale: 1.1;
+    border-radius: 24px;
+    background-color: aqua;
+}
+
+.item:focus{
+    scale: 1.2;
+    background-color: red;
+}
+
+.item:inactive {
+    background-color: darkslategray;
+}
+
 .multistate_element {
     width: 100px;
     height: 100px;

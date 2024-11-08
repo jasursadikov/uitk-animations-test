@@ -2,6 +2,7 @@
   "dependencies": {
     "com.trackman.asyncawaitutil": "https://github.com/TrackMan/Unity.Package.AsyncAwaitUtil.git",
     "com.trackman.commonutils": "https://github.com/TrackMan/Unity.Package.CommonUtils.git",
+    "com.trackman.commonutils": "https://github.com/TrackMan/Unity.Package.FigmaToUnity.git",
     "com.unity.modules.assetbundle": "1.0.0",
     "com.unity.modules.audio": "1.0.0",
     "com.unity.modules.imageconversion": "1.0.0",

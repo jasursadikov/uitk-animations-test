@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Demo/Demo.uss?fileID=7433441132597879392&amp;guid=5c86484a00d11879a9bb61f153077f46&amp;type=3#Demo" />
+    <ui:VisualElement name="Body" style="flex-grow: 1;">
+        <ui:VisualElement name="Container" style="flex-grow: 1; position: absolute; left: 400px; top: 100px; right: 400px; bottom: 100px; background-color: rgb(255, 255, 255);">
+            <ui:VisualElement name="Button" class="item">
+                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" style="align-self: center;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
