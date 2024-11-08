@@ -2,8 +2,9 @@
     <Style src="project://database/Assets/UI/Demo/Demo.uss?fileID=7433441132597879392&amp;guid=5c86484a00d11879a9bb61f153077f46&amp;type=3#Demo" />
     <ui:VisualElement name="Body" style="flex-grow: 1;">
         <ui:VisualElement name="Container" style="flex-grow: 1; position: absolute; left: 400px; top: 100px; right: 400px; bottom: 100px; background-color: rgb(255, 255, 255);">
+            <ui:Label tabindex="-1" text="Autem tempora rerum voluptatem repellendus illum cum unde vel. Est quo repellat voluptatum totam eum aliquam enim autem. Qui facere distinctio iusto placeat quod quas possimus. Est facere ea excepturi ipsam.&#10;&#10;Saepe facilis provident doloribus. Est dignissimos harum aspernatur sit nisi. Exercitationem et saepe earum hic.&#10;&#10;Voluptas voluptatibus est earum facilis iste doloremque est. Magnam qui nihil nisi ipsam voluptatibus. Minima magnam corrupti molestiae nulla omnis." parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label" class="text" style="margin-top: 24px; margin-right: 24px; margin-bottom: 24px; margin-left: 24px; white-space: normal;" />
             <ui:VisualElement name="Button" class="item">
-                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" style="align-self: center;" />
+                <ui:Label tabindex="-1" text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" class="text" style="color: rgb(255, 255, 255); -unity-text-align: upper-center; padding-top: 46px; padding-right: 46px; padding-bottom: 46px; padding-left: 46px;" />
             </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>

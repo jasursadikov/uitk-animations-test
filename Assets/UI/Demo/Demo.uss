@@ -1,3 +1,7 @@
+.text {
+    font-size: 32px;
+}
+
 .item {
     margin: 24px;
     height: 128px;
