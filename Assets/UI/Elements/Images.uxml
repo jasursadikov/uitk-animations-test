@@ -1,0 +1,14 @@
+﻿<unity:UXML xmlns:unity="UnityEngine.UIElements">
+    <Style src="../UI.uss" />
+    <unity:VisualElement id="103:160" name="Images" class="Images103-160 unity-viewport">
+        <unity:VisualElement id="103:138" name="Property 1-Default" class="Property-1-Default103-138 unity-viewport">
+            <unity:VisualElement id="103:119" name="Tee" class="Tee103-119 unity-viewport" />
+        </unity:VisualElement>
+        <unity:VisualElement id="103:165" name="Property 1-Variant2" class="Property-1-Variant2103-165 unity-viewport">
+            <unity:VisualElement id="103:166" name="DeepRough" class="DeepRough103-166 unity-viewport" />
+        </unity:VisualElement>
+        <unity:VisualElement id="103:186" name="Property 1-Variant3" class="Property-1-Variant3103-186 unity-viewport">
+            <unity:VisualElement id="103:206" name="Leaves" class="Leaves103-206 unity-viewport" />
+        </unity:VisualElement>
+    </unity:VisualElement>
+</unity:UXML>

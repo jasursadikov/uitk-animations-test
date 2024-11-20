@@ -1,0 +1,16 @@
+﻿<unity:UXML xmlns:unity="UnityEngine.UIElements">
+    <unity:Template src="Components/ButtonPrefab.uxml" name="ButtonPrefab" />
+    <unity:Template src="Components/Images.uxml" name="Images" />
+    <unity:Template src="Components/ButtonCustom.uxml" name="ButtonCustom" />
+    <unity:VisualElement id="0:0" name="Document" class="Document0-0 unity-base-override unity-viewport">
+        <Style src="UI.uss" />
+        <unity:VisualElement id="0:1" name="Main" class="Main0-1 unity-viewport">
+            <unity:VisualElement id="3:3" name="DummyFrame" class="DummyFrame3-3 unity-viewport">
+                <unity:Instance template="Images" name="Images" class="Images103-207" />
+                <unity:Instance template="ButtonCustom" name="ButtonCustom" class="ButtonCustom133-16" />
+                <unity:Instance template="ButtonPrefab" name="ButtonPrefab" class="ButtonPrefab147-25" />
+                <unity:Instance template="ButtonPrefab" name="ButtonPrefab" class="ButtonPrefab166-7" />
+            </unity:VisualElement>
+        </unity:VisualElement>
+    </unity:VisualElement>
+</unity:UXML>
