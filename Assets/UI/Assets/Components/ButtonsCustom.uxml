@@ -1,24 +1,8 @@
 ﻿<unity:UXML xmlns:unity="UnityEngine.UIElements">
-    <Style
-        src="../UI.uss" />
-    <unity:Button
-        id="133:10"
-        name="ButtonsCustom"
-        class="unity-base-override ButtonsCustom-two unity-viewport">
-        <unity:VisualElement
-            id="156:6"
-            name="state=active"
-            class="unity-base-override state-active unity-viewport"
-            picking-mode="Ignore" />
-        <unity:VisualElement
-            id="133:11"
-            name="state=hover"
-            class="unity-base-override state-hover unity-viewport"
-            picking-mode="Ignore" />
-        <unity:VisualElement
-            id="133:9"
-            name="state=inactive"
-            class="unity-base-override state-inactive unity-viewport"
-            picking-mode="Ignore" />
+    <Style src="../UI.uss" />
+    <unity:Button id="133:10" name="ButtonsCustom" class="unity-base-override ButtonsCustom-two unity-viewport">
+        <unity:VisualElement id="156:6" name="state=active" class="unity-base-override state-active unity-viewport" picking-mode="Ignore" />
+        <unity:VisualElement id="133:11" name="state=hover" class="unity-base-override state-hover unity-viewport" picking-mode="Ignore" />
+        <unity:VisualElement id="133:9" name="state=inactive" class="unity-base-override state-inactive unity-viewport" picking-mode="Ignore" />
     </unity:Button>
 </unity:UXML>
