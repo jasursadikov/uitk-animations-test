@@ -18,14 +18,6 @@
 	height: 100%;
 }
 
-.Grayscale-White {
-	background-color: rgba(255,255,255,1);
-}
-
-.Text-Element-Grey {
-	background-color: rgba(65,65,65,1);
-}
-
 .state-active {
 	border-radius: 20px;
 	padding: 10px 20px 10px 20px;
@@ -39,8 +31,17 @@
 	overflow: hidden;
 }
 
+.Test-one {
+	width: auto;
+	color: rgba(255,255,255,1);
+	white-space: nowrap;
+	font-size: 12px;
+	-unity-font: resource('Inter-Regular');
+	-unity-text-align: upper-left;
+}
+
 .state-hover {
-	border-radius: 20px;
+	border-radius: 0px 0px 0px 0px;
 	padding: 10px 20px 10px 20px;
 	flex-direction: row;
 	justify-content: center;
@@ -50,6 +51,15 @@
 	--box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
 	background-color: rgba(0,144,9,1);
 	overflow: hidden;
+}
+
+.Test-two {
+	width: auto;
+	color: rgba(255,255,0,1);
+	white-space: nowrap;
+	font-size: 12px;
+	-unity-font: resource('Inter-Regular');
+	-unity-text-align: upper-left;
 }
 
 .state-inactive {
@@ -65,18 +75,13 @@
 	overflow: hidden;
 }
 
-.Type-Chevron-Size-Large {
-	border-radius: 56px;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	--item-spacing: 10;
-	background-color: rgba(255,255,255,1);
-}
-
-.Size-32px-Weight-Thin {
-	border-radius: 0px 0px 0px 0px;
+.Test-three {
+	width: auto;
+	color: rgba(0,0,0,1);
+	white-space: nowrap;
+	font-size: 12px;
+	-unity-font: resource('Inter-Regular');
+	-unity-text-align: upper-left;
 }
 
 .DummyFrame {
@@ -92,34 +97,16 @@
 	height: 38px;
 }
 
-.Button-Icon-buttons {
-	border-radius: 56px;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	--item-spacing: 10;
-	position: absolute;
-	left: 1109px;
-	width: 56px;
-	top: 484px;
-	height: 56px;
-}
-
-.Icons-Chevron-Left {
-	border-radius: 0px 0px 0px 0px;
+.Test-four {
 	position: relative;
-	width: 32px;
-	height: 32px;
+	height: 15px;
+	margin-right: 10px;
 }
 
-.n-32px-Thin-Chevron-Left {
-	border-radius: 0px 0px 0px 0px;
-	position: absolute;
-	left: 18.72%;
-	right: 24.97%;
-	top: 0%;
-	bottom: 0%;
+.Ellipse-1-two {
+	position: relative;
+	width: 35px;
+	height: 35px;
 }
 
 .ButtonsCustom-two {
@@ -131,38 +118,46 @@
 	transition-timing-function: ease-out;
 }
 
-.ButtonsCustom-two .state-inactive {
-	opacity: 1;
+.ButtonsCustom-two:hover .state-inactive {
+	border-radius: 0px 0px 0px 0px;
+	padding: 10px 20px 10px 20px;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	--item-spacing: 10;
+	--box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+	background-color: rgba(0,144,9,1);
+	overflow: hidden;
 }
 
-.ButtonsCustom-two:hover .state-inactive {
-	opacity: 0;
+.ButtonsCustom-two:hover .Test-three {
+	width: auto;
+	color: rgba(255,255,0,1);
+	white-space: nowrap;
+	font-size: 12px;
+	-unity-font: resource('Inter-Regular');
+	-unity-text-align: upper-left;
 }
 
 .ButtonsCustom-two:active .state-inactive {
-	opacity: 0;
+	border-radius: 20px;
+	padding: 10px 20px 10px 20px;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	--item-spacing: 10;
+	--box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+	background-color: rgba(255,0,0,1);
+	overflow: hidden;
 }
 
-.ButtonsCustom-two .state-hover {
-	opacity: 0;
-}
-
-.ButtonsCustom-two:hover .state-hover {
-	opacity: 1;
-}
-
-.ButtonsCustom-two:active .state-hover {
-	opacity: 0;
-}
-
-.ButtonsCustom-two .state-active {
-	opacity: 0;
-}
-
-.ButtonsCustom-two:hover .state-active {
-	opacity: 0;
-}
-
-.ButtonsCustom-two:active .state-active {
-	opacity: 1;
+.ButtonsCustom-two:active .Test-three {
+	width: auto;
+	color: rgba(255,255,255,1);
+	white-space: nowrap;
+	font-size: 12px;
+	-unity-font: resource('Inter-Regular');
+	-unity-text-align: upper-left;
 }
