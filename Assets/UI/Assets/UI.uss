@@ -118,7 +118,7 @@
 	transition-timing-function: ease-out;
 }
 
-.ButtonsCustom-two:hover .state-inactive {
+.ButtonsCustom-two:hover > .state-inactive {
 	border-radius: 0px 0px 0px 0px;
 	padding: 10px 20px 10px 20px;
 	flex-direction: row;
@@ -131,7 +131,7 @@
 	overflow: hidden;
 }
 
-.ButtonsCustom-two:hover .Test-three {
+.ButtonsCustom-two:hover > .Test-three {
 	width: auto;
 	color: rgba(255,255,0,1);
 	white-space: nowrap;
@@ -140,7 +140,7 @@
 	-unity-text-align: upper-left;
 }
 
-.ButtonsCustom-two:active .state-inactive {
+.ButtonsCustom-two:active > .state-inactive {
 	border-radius: 20px;
 	padding: 10px 20px 10px 20px;
 	flex-direction: row;
@@ -153,7 +153,7 @@
 	overflow: hidden;
 }
 
-.ButtonsCustom-two:active .Test-three {
+.ButtonsCustom-two:active > .Test-three {
 	width: auto;
 	color: rgba(255,255,255,1);
 	white-space: nowrap;
