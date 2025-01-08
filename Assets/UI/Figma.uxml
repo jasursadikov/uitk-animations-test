@@ -1,0 +1,28 @@
+﻿<unity:UXML xmlns:unity="UnityEngine.UIElements">
+    <unity:VisualElement id="0:0" name="Document" class="unity-base-override unity-viewport" picking-mode="Ignore">
+        <Style src="Figma.uss" />
+        <unity:VisualElement id="0:1" name="TestPage" class="unity-base-override unity-viewport" picking-mode="Ignore">
+            <unity:VisualElement id="0:3" name="TestFrame" class="unity-base-override TestFrame unity-viewport" picking-mode="Ignore">
+                <unity:Label id="0:4" name="Header" class="unity-base-override Header" picking-mode="Ignore" text="Welcome to Figma Test Frame!" />
+                <unity:Button id="0:5" name="SyncButton" class="unity-base-override SyncButton">
+                    <unity:Label id="0:6" name="Label" class="unity-base-override Label-one" picking-mode="Ignore" text="Sync" />
+                </unity:Button>
+                <unity:Button id="27:11" name="RemoveButton" class="unity-base-override RemoveButton">
+                    <unity:Label id="27:12" name="Label" class="unity-base-override Label-two" picking-mode="Ignore" text="Remove" />
+                </unity:Button>
+                <unity:Button id="29:17" name="CloneButton" class="unity-base-override CloneButton">
+                    <unity:Label id="29:18" name="Label" class="unity-base-override Label-three" picking-mode="Ignore" text="Clone" />
+                </unity:Button>
+                <unity:Label id="26:7" name="SyncDescription" class="unity-base-override SyncDescription" picking-mode="Ignore" text="Click to sync with data collection (random in the example, up to seven elements):" />
+                <unity:Label id="31:19" name="FunctionDescription" class="unity-base-override FunctionDescription" picking-mode="Ignore" text="If you syncing buttons you can pass function as parameter. In this example, function changes circle color.&#xA;Click on circles." />
+                <unity:Label id="27:15" name="CloneDescription" class="unity-base-override CloneDescription" picking-mode="Ignore" text="Click to clone/remove manually:" />
+                <unity:VisualElement id="16:3" name="SyncContainer" class="unity-base-override SyncContainer" picking-mode="Ignore">
+                    <Figma.Samples.PerfectCircle id="16:2" name="SyncCircle" class="unity-base-override SyncCircle" />
+                </unity:VisualElement>
+                <unity:VisualElement id="27:13" name="CloneContainer" class="unity-base-override CloneContainer" picking-mode="Ignore">
+                    <Figma.Samples.PerfectCircle id="27:14" name="CloneCircle" class="unity-base-override CloneCircle" />
+                </unity:VisualElement>
+            </unity:VisualElement>
+        </unity:VisualElement>
+    </unity:VisualElement>
+</unity:UXML>

@@ -1,6 +1,6 @@
 ﻿<unity:UXML xmlns:unity="UnityEngine.UIElements">
     <Style src="../UI.uss" />
-    <unity:Button id="133:10" name="ButtonsCustom" class="unity-base-override ButtonsCustom-two unity-viewport">
+    <unity:Button id="133:10" name="ButtonsCustom" class="unity-base-override ButtonsCustom unity-viewport">
         <unity:VisualElement id="156:6" name="state=active" class="unity-base-override state-active unity-viewport" picking-mode="Ignore">
             <unity:Label id="249:17" name="Test" class="unity-base-override Test-one unity-viewport" picking-mode="Ignore" text="Test" />
             <unity:VisualElement id="249:18" name="Ellipse 2" class="unity-base-override unity-viewport" picking-mode="Ignore" />

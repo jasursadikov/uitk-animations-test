@@ -89,7 +89,50 @@
 	overflow: hidden;
 }
 
-.ButtonsCustom-one {
+.SyncList {
+	border-radius: 0px 0px 0px 0px;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	--item-spacing: 10;
+	position: absolute;
+	left: 258px;
+	width: 349px;
+	top: 24px;
+	height: 1056px;
+}
+
+.Element {
+	border-radius: 0px 0px 0px 0px;
+	position: relative;
+	width: 349px;
+	height: 74px;
+}
+
+.CustomElement {
+	border-radius: 0px 0px 0px 0px;
+	position: absolute;
+	left: 0px;
+	width: 349px;
+	top: 0px;
+	height: 74px;
+}
+
+.List-Element {
+	position: absolute;
+	left: 0px;
+	width: 349px;
+	top: 0px;
+	height: 74px;
+	color: rgba(0,0,0,1);
+	white-space: normal;
+	font-size: 32px;
+	-unity-font: resource('Inter-Regular');
+	-unity-text-align: middle-center;
+}
+
+.Button {
 	position: absolute;
 	left: 0px;
 	width: 110px;
@@ -109,16 +152,16 @@
 	height: 35px;
 }
 
-.ButtonsCustom-two {
+.ButtonsCustom {
 	overflow: hidden;
 }
 
-.ButtonsCustom-two > VisualElement {
+.ButtonsCustom > VisualElement {
 	transition-duration: 300ms;
 	transition-timing-function: ease-out;
 }
 
-.ButtonsCustom-two:hover > .state-inactive {
+.ButtonsCustom:hover > .state-inactive {
 	border-radius: 0px 0px 0px 0px;
 	padding: 10px 20px 10px 20px;
 	flex-direction: row;
@@ -131,7 +174,7 @@
 	overflow: hidden;
 }
 
-.ButtonsCustom-two:hover > .Test-three {
+.ButtonsCustom:hover > .Test-three {
 	width: auto;
 	color: rgba(255,255,0,1);
 	white-space: nowrap;
@@ -140,7 +183,7 @@
 	-unity-text-align: upper-left;
 }
 
-.ButtonsCustom-two:active > .state-inactive {
+.ButtonsCustom:active > .state-inactive {
 	border-radius: 20px;
 	padding: 10px 20px 10px 20px;
 	flex-direction: row;
@@ -153,7 +196,7 @@
 	overflow: hidden;
 }
 
-.ButtonsCustom-two:active > .Test-three {
+.ButtonsCustom:active > .Test-three {
 	width: auto;
 	color: rgba(255,255,255,1);
 	white-space: nowrap;

@@ -4,7 +4,13 @@
         <unity:Template name="ButtonsCustom" src="Components/ButtonsCustom.uxml" />
         <unity:VisualElement id="0:1" name="Main" class="unity-base-override unity-viewport" picking-mode="Ignore">
             <unity:VisualElement id="3:3" name="DummyFrame" class="unity-base-override DummyFrame unity-viewport" picking-mode="Ignore">
-                <unity:Instance name="ButtonsCustom" template="ButtonsCustom" class="unity-base-override ButtonsCustom-one state-inactive" />
+                <unity:VisualElement id="272:14" name="SyncList" class="unity-base-override SyncList" picking-mode="Ignore">
+                    <unity:VisualElement id="290:8" name="Element" class="unity-base-override Element" picking-mode="Ignore">
+                        <unity:VisualElement id="290:6" name="CustomElement" class="unity-base-override CustomElement" picking-mode="Ignore" />
+                        <unity:Label id="290:9" name="List Element" class="unity-base-override List-Element" picking-mode="Ignore" text="List Element" />
+                    </unity:VisualElement>
+                </unity:VisualElement>
+                <unity:Instance name="Button" template="ButtonsCustom" class="unity-base-override Button state-inactive" />
             </unity:VisualElement>
         </unity:VisualElement>
     </unity:VisualElement>
